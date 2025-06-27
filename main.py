@@ -14,6 +14,8 @@ def ru_alpha_response(command):
         return "₿ BTC Anlık Durum:\nFiyat: 107.100\nTrend: Pozitif\nSinyal: Öncü long aktif 🟢"
     elif command == '/pozisyonlarım':
         return "📌 Aktif Pozisyonlar:\n- BTC Long\n  Giriş: 107.100\n  Stop: 106.480\n  Hedef: 108.800"
+    elif command == '/test':
+        return "📢 Anlık test bildirimi: Rû Assistant aktif durumda ve mesaj gönderiyor 🔔"
     elif command == '/dur':
         return "⏸️ İzleme durduruldu. Sinyal takibi pasif."
     elif command == '/aktif':
@@ -21,7 +23,7 @@ def ru_alpha_response(command):
     elif command == '/oneri':
         return "💡 Önerilen Coinler:\n- BTC (Long)\n- ETH (Teyit bekliyor)\n- RUNE (Hacim artışı var)"
     elif command == '/yardim':
-        return "🤖 Rû Assistant Komutları:\n/rû15\n/btc\n/pozisyonlarım\n/dur\n/aktif\n/oneri"
+        return "🤖 Rû Assistant Komutları:\n/rû15\n/btc\n/pozisyonlarım\n/test\n/dur\n/aktif\n/oneri"
     else:
         return "❓ Komut anlaşılamadı. Yardım için /yardim yaz."
 
